@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://marcolupia.github.io/hindu-bubbles-website/sitemap.xml
+
