@@ -77,13 +77,13 @@ export function App() {
         <p className="section-subtitle">Experience the divine gameplay and beautiful Hindu-themed visuals</p>
         <div className="screenshots-grid">
           <div className="screenshot-card">
-            <img src="/screen1.png" alt="Hindu Bubbles Gameplay Screenshot 1" />
+            <img src={`${import.meta.env.BASE_URL}screen1.png`} alt="Hindu Bubbles Gameplay Screenshot 1" />
           </div>
           <div className="screenshot-card">
-            <img src="/screen2.png" alt="Hindu Bubbles Gameplay Screenshot 2" />
+            <img src={`${import.meta.env.BASE_URL}screen2.png`} alt="Hindu Bubbles Gameplay Screenshot 2" />
           </div>
           <div className="screenshot-card">
-            <img src="/screen3.jpg" alt="Hindu Bubbles Gameplay Screenshot 3" />
+            <img src={`${import.meta.env.BASE_URL}screen3.jpg`} alt="Hindu Bubbles Gameplay Screenshot 3" />
           </div>
         </div>
       </section>
@@ -138,7 +138,10 @@ export function App() {
 
       {/* Footer */}
       <footer className="footer">
-        <p>&copy; 2025 PingPong Games. All rights reserved.</p>
+        <p>&copy; 2025 <a href="https://pingpong-games.github.io/" target="_blank" rel="noopener noreferrer" className="footer-link">PingPong Games</a>. All rights reserved.</p>
+        <p className="footer-links">
+          <a href="privacy-policy.html" className="footer-link">Privacy Policy</a>
+        </p>
         <p className="footer-tagline">Experience the divine in every bubble 🕉️</p>
       </footer>
     </div>

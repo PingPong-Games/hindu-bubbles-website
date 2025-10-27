@@ -554,9 +554,45 @@ section {
   margin: 0.5rem 0;
 }
 
+.footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
 .footer-tagline {
   font-size: 1.1rem;
   color: var(--color-gold);
+}
+
+.footer-link {
+  color: var(--color-gold);
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.footer-link:hover {
+  color: var(--color-secondary);
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+.footer-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--color-gold);
+  transition: width 0.3s ease;
+}
+
+.footer-link:hover::after {
+  width: 100%;
 }
 
 /* Responsive Design */
