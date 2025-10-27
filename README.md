@@ -31,8 +31,8 @@ This landing page is built with:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/hindu-bubbles-web.git
-   cd hindu-bubbles-web
+   git clone https://github.com/PingPong-Games/hindu-bubbles-website.git
+   cd hindu-bubbles-website
    ```
 
 2. **Install dependencies**
@@ -74,7 +74,7 @@ This project is configured to automatically deploy to GitHub Pages when you push
    ```
 
 3. **Access your site**
-   - Your site will be available at: `https://yourusername.github.io/hindu-bubbles-web/`
+   - Your site will be available at: `https://pingpong-games.github.io/hindu-bubbles-website/`
 
 ### Manual Deployment
 

@@ -71,6 +71,23 @@ export function App() {
         </div>
       </section>
 
+      {/* Screenshots Section */}
+      <section className="screenshots">
+        <h2 className="section-title">Game Screenshots</h2>
+        <p className="section-subtitle">Experience the divine gameplay and beautiful Hindu-themed visuals</p>
+        <div className="screenshots-grid">
+          <div className="screenshot-card">
+            <img src="/screen1.png" alt="Hindu Bubbles Gameplay Screenshot 1" />
+          </div>
+          <div className="screenshot-card">
+            <img src="/screen2.png" alt="Hindu Bubbles Gameplay Screenshot 2" />
+          </div>
+          <div className="screenshot-card">
+            <img src="/screen3.jpg" alt="Hindu Bubbles Gameplay Screenshot 3" />
+          </div>
+        </div>
+      </section>
+
       {/* Power-ups Section */}
       <section className="powerups">
         <h2 className="section-title">Divine Power-Ups</h2>
@@ -89,64 +106,6 @@ export function App() {
             <div className="powerup-icon celestial">🌀</div>
             <h3>Celestial Swirl</h3>
             <p>Mystical Kundalini energy that rearranges or targets specific colors</p>
-          </div>
-        </div>
-      </section>
-
-      {/* Dashavatara Lives System */}
-      <section className="lives-system">
-        <h2 className="section-title">Dashavatara Lives System</h2>
-        <p className="section-subtitle">Experience the 10 Avatars of Vishnu as your divine energy</p>
-        <div className="avatars-grid">
-          <div className="avatar-card">
-            <div className="avatar-number">1</div>
-            <h4>Matsya</h4>
-            <p>The Fish</p>
-          </div>
-          <div className="avatar-card">
-            <div className="avatar-number">2</div>
-            <h4>Kurma</h4>
-            <p>The Tortoise</p>
-          </div>
-          <div className="avatar-card">
-            <div className="avatar-number">3</div>
-            <h4>Varaha</h4>
-            <p>The Boar</p>
-          </div>
-          <div className="avatar-card">
-            <div className="avatar-number">4</div>
-            <h4>Narasimha</h4>
-            <p>The Man-Lion</p>
-          </div>
-          <div className="avatar-card">
-            <div className="avatar-number">5</div>
-            <h4>Vamana</h4>
-            <p>The Dwarf</p>
-          </div>
-          <div className="avatar-card">
-            <div className="avatar-number">6</div>
-            <h4>Parashurama</h4>
-            <p>The Warrior</p>
-          </div>
-          <div className="avatar-card">
-            <div className="avatar-number">7</div>
-            <h4>Rama</h4>
-            <p>The Prince</p>
-          </div>
-          <div className="avatar-card">
-            <div className="avatar-number">8</div>
-            <h4>Krishna</h4>
-            <p>The Divine</p>
-          </div>
-          <div className="avatar-card">
-            <div className="avatar-number">9</div>
-            <h4>Buddha</h4>
-            <p>The Enlightened</p>
-          </div>
-          <div className="avatar-card highlight">
-            <div className="avatar-number">10</div>
-            <h4>Kalki</h4>
-            <p>The Ultimate</p>
           </div>
         </div>
       </section>
@@ -179,7 +138,7 @@ export function App() {
 
       {/* Footer */}
       <footer className="footer">
-        <p>&copy; 2025 Hindu Bubbles. All rights reserved.</p>
+        <p>&copy; 2025 PingPong Games. All rights reserved.</p>
         <p className="footer-tagline">Experience the divine in every bubble 🕉️</p>
       </footer>
     </div>
